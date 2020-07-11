@@ -1,7 +1,7 @@
   
-  # StopWatch
+  # StopWatch Application
 
-[--> Navigate to StopWatch](https://stopwatch-66ffb.web.app)
+[--> Navigate to StopWatch Application](https://stopwatch-66ffb.web.app)
 
 ### FILES DISCRIPTION:-
 
