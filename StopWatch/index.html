@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>StopWatch</title>
+    <link rel="icon" href="Stopwatch.png">
+</head>
+
+<body>
+    <div class="main">
+        <div class="stop ">
+            <h1 class="text-primary display-2 mt-5">StopWatch</h1>
+        </div>
+
+
+
+        <div class="d-flex flex-row bd-highlight mb-3 ">
+            <div style="color: greenyellow; font-weight: bold;" id="min" class="p-2 bd-highlight mr-3 display-4 dig">0
+            </div>
+            <h2 class="display-4 time blink-one mr-3">:</h2>
+            <div style="color: red;" id="sec" class="p-2 bd-highlight mr-3 display-4 dig">0</div>
+            <h2 class="display-4 time blink-one mr-3">:</h2>
+            <div style="color: yellow;" id="msec" class="p-2 bd-highlight mr-3 display-4 dig">0</div>
+        </div>
+
+        <div>
+
+            <button style="color: greenyellow;" id="start" type="button" class="btn btn-dark mr-3" onclick="start()"><b>
+                    Start </b></button>
+            <button style="color: red;" type="button" class="btn btn-dark mr-3" onclick="stop()"><b> Pause</b></button>
+            <button style="color: yellow;" type="button" class="btn btn-dark mr-3" onclick="reset()"><b>Reset</b></button>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
