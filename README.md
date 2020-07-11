@@ -1,6 +1,6 @@
   
-  # StopWatch Application
-
+  # StopWatch Application Deployed on Firebase using HTML5 , CSS & Bootstrap
+  
 [--> Navigate to StopWatch Application](https://stopwatch-66ffb.web.app)
 
 ### FILES DISCRIPTION:-
